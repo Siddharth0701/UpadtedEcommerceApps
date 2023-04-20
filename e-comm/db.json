@@ -14,9 +14,15 @@
     },
     {
       "name": "Siddharth ",
-      "email": "siddhartha.singh0701@gmail.com",
+      "email": "siddharthaa.singh0701@gmail.com",
       "password": "Singh123",
       "id": 3
+    },
+    {
+      "name": "vishal kannaujiya",
+      "email": "kumar@gmail.com",
+      "password": "vishal@123",
+      "id": 4
     }
   ],
   "products": [
