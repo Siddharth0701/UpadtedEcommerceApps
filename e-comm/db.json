@@ -11,6 +11,12 @@
       "email": "siddharth.singh0701@gmail.com",
       "password": "Singh@123",
       "id": 2
+    },
+    {
+      "name": "Siddharth ",
+      "email": "siddhartha.singh0701@gmail.com",
+      "password": "Singh123",
+      "id": 3
     }
   ],
   "products": [

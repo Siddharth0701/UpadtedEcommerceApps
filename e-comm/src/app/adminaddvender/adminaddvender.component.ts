@@ -17,7 +17,7 @@ export class AdminaddvenderComponent {
     this.seller.addSeller(data).subscribe((result) => {
       console.warn(result);
       if (result) {
-        this.addProductMessage = 'Product is added successfully';
+        this.addProductMessage = 'vender is added successfully';
       }
     });
 
