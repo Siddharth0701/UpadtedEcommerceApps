@@ -52,10 +52,13 @@ export class SellerService {
   getSellerById(id: string) {
     return this.http.get<signUp>(`http://localhost:3000/seller/${id}`);
   }
-  updateSeller(product:signUp) {
+  updateSeller(signUp:signUp) {
     return this.http.put<signUp>(
-      `http://localhost:3000/sller/${product.id}`,
-      product
+      `http://localhost:3000/seller/${signUp.id}`,
+      signUp
     );
+  }
+  addSeller(data: signUp) {
+    return this.http.post('http://localhost:3000/seller', data);
   }
 }

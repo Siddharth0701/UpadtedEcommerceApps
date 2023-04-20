@@ -7,9 +7,9 @@
       "id": 1
     },
     {
-      "name": "Siddharth ",
-      "password": "Singh@123",
+      "name": "Siddharth07",
       "email": "siddharth.singh0701@gmail.com",
+      "password": "Singh@123",
       "id": 2
     }
   ],
@@ -19,7 +19,7 @@
       "price": "13000",
       "category": "Bed ",
       "color": "Brown",
-      "description": "Long king size bed",
+      "description": "Long king size beds",
       "image": "assets/Bed/Bimg1.jpg",
       "id": 4
     },

@@ -27,76 +27,80 @@ const routes: Routes = [
     path: '',
   },
   {
-    component:ProductdashboardComponent,
-    path:'vendordetails',
+    component: ProductdashboardComponent,
+    path: 'vendordetails',
   },
   {
     component: SellerAuthComponent,
     path: 'seller-auth',
   },
   {
-    component:SellerHomeComponent,
-    path:'seller-home',
-    canActivate:[AuthGuard]
-  },{
-    component:SellerAddProductComponent,
-    path:'seller-add-product',
-    canActivate:[AuthGuard]
-  },{
-    component:SellerUpdateProductComponent,
-    path:'seller-update-product/:id',
-    canActivate:[AuthGuard]
+    component: SellerHomeComponent,
+    path: 'seller-home',
+    canActivate: [AuthGuard],
+  },
+  {
+    component: SellerAddProductComponent,
+    path: 'seller-add-product',
+    canActivate: [AuthGuard],
+  },
+  {
+    component: SellerUpdateProductComponent,
+    path: 'seller-update-product/:id',
+    canActivate: [AuthGuard],
   },
   {
     component: SearchComponent,
-    path:'search/:query'
-  },{
-    component:ProductDetailsComponent,
-    path:'details/:productId'
-  },{
-    component:UserAuthComponent,
-    path:'user-auth'
+    path: 'search/:query',
   },
   {
-    component:CartPageComponent,
-    path:'cart-page'
+    component: ProductDetailsComponent,
+    path: 'details/:productId',
   },
   {
-    component:CheckoutComponent,
-    path:'checkout'
+    component: UserAuthComponent,
+    path: 'user-auth',
   },
   {
-    component:MyOrdersComponent,
-    path:'my-orders'
+    component: CartPageComponent,
+    path: 'cart-page',
   },
   {
-    component:vendorComponent,
-    path:'seller-home/vendor',
-    canActivate:[AuthGuard]
+    component: CheckoutComponent,
+    path: 'checkout',
   },
   {
-    component:AboutComponent,
-    path:'about'
+    component: MyOrdersComponent,
+    path: 'my-orders',
   },
   {
-    component:AdminComponent,
-    path:"admin",
-    canActivate:[AuthGuard]
+    component: vendorComponent,
+    path: 'seller-home/vendor',
+    canActivate: [AuthGuard],
   },
   {
-    component:AdminhomepageComponent,
-    path:"adminhomepage"
-
+    component: AboutComponent,
+    path: 'about',
   },
   {
-    component:AdminaddvenderComponent,
-    path:"admin-add-vender"
+    component: AdminComponent,
+    path: 'admin',
+    canActivate: [AuthGuard],
   },
   {
-    component:AdminUpdateVenderComponent,
-    path:"admin-update-vender"
-  }
-
+    component: AdminhomepageComponent,
+    path: 'adminhomepage',
+  },
+  
+  {
+    component: AdminaddvenderComponent,
+    path: 'admin-add-vender',
+  },
+  {
+    component: AdminUpdateVenderComponent,
+    path: 'admin-update-vender/:id',
+    canActivate: [AuthGuard],
+  },
 ];
 
 @NgModule({

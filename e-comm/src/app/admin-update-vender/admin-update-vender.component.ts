@@ -28,7 +28,7 @@ export class AdminUpdateVenderComponent {
     }
     this.seller.updateSeller(data).subscribe((result) => {
       if (result) {
-        this.productMessage = 'Product has updated';
+        this.productMessage = 'Vender has updated';
       }
     });
     setTimeout(() => {

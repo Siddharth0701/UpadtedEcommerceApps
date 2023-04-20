@@ -4,11 +4,11 @@
   <form #addVender="ngForm" (ngSubmit)="submit(addVender.value)" class="common-form">
     <input type="text" class="form-input" placeholder="Enter user Name" name="name"
       ngModel="{{venderData?.name}}" />
-    <input type="text" class="form-input" placeholder="Enter vender email" name="price"
+    <input type="text" class="form-input" placeholder="Enter vender email" name="email"
       ngModel="{{venderData?.email}}" />
-    <input type="text" class="form-input" placeholder="Enter vender password" name="category"
+    <input type="text" class="form-input" placeholder="Enter vender password" name="password"
       ngModel="{{venderData?.password}}" />
-    <button class="form-button">Update Product</button>
+    <button class="form-button">Update Vender</button>
 
   </form>
 </div>
